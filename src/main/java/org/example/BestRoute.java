@@ -15,19 +15,11 @@ public class BestRoute {
         if(vis.size() == nodes.size() && minTime > time)
         {
             minTime  = time;
-            if(ans.size() == 0)
-            {
-                for(int i=0;i<Route.size();i++)
-                ans.add(Route.get(i));
-            }
-            else
-            {
-                for(int i=0;i< Route.size();i++)
-                {
-                    ans.set(i,Route.get(i));
-                }
-            }
-//            System.out.println(ans.size());
+           ans.clear();
+           ans.addAll(Route);
+
+//            ans = new ArrayList<>(Route);
+            System.out.println(ans.size());
             return;
         }
         for(int i=0;i<nodes.size();i++)
