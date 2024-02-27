@@ -1,4 +1,9 @@
-package org.example;
+package org.example.services;
+
+import org.example.models.Driver;
+import org.example.models.Order;
+import org.example.models.Restaurant;
+import org.example.models.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -51,7 +56,7 @@ public class BestRoute {
         }
 
     }
-    public static ArrayList<User> getBestRoute(ArrayList<Order> orders,Driver driver)
+    public static ArrayList<User> getBestRoute(ArrayList<Order> orders, Driver driver)
     {
         HashMap<User, User> orderMap = new HashMap<>();
         ArrayList<User> nodes = new ArrayList<>();

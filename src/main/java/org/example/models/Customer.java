@@ -1,6 +1,6 @@
-package org.example;
+package org.example.models;
 
-public class Driver implements  User{
+public class Customer implements User {
     private String name;
     private GeoPoint location;
 
@@ -8,7 +8,7 @@ public class Driver implements  User{
         return name;
     }
 
-    public Driver(String name, GeoPoint location) {
+    public Customer(String name, GeoPoint location) {
         this.name = name;
         this.location = location;
     }

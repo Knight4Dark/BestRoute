@@ -1,5 +1,7 @@
-package org.example;
+package org.example.services;
 
+
+import org.example.models.GeoPoint;
 
 public class HaversineDistance {
     public static final double RADIUS_OF_EARTH = 6371; // Earth's radius in kilometers

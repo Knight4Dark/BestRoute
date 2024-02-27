@@ -1,6 +1,9 @@
-package org.example;
+package org.example.models;
 
-public class Restaurant implements User{
+import org.example.models.GeoPoint;
+import org.example.models.User;
+
+public class Restaurant implements User {
     private String name;
     private int prepTime;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.models;
 
 public class GeoPoint {
     private double latitude;

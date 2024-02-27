@@ -1,4 +1,7 @@
-package org.example;
+package org.example.models;
+
+import org.example.models.Customer;
+import org.example.models.Restaurant;
 
 public class Order {
     private Customer customer;
