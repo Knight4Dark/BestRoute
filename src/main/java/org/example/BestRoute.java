@@ -17,9 +17,6 @@ public class BestRoute {
             minTime  = time;
            ans.clear();
            ans.addAll(Route);
-
-//            ans = new ArrayList<>(Route);
-            System.out.println(ans.size());
             return;
         }
         for(int i=0;i<nodes.size();i++)
@@ -54,7 +51,7 @@ public class BestRoute {
         }
 
     }
-    public static ArrayList<User> getBestRoute(ArrayList<Order> orders,Customer driver)
+    public static ArrayList<User> getBestRoute(ArrayList<Order> orders,Driver driver)
     {
         HashMap<User, User> orderMap = new HashMap<>();
         ArrayList<User> nodes = new ArrayList<>();

@@ -19,7 +19,7 @@ public class Main {
         orders.add(new Order(customers.get(0),restaurants.get(0)));
         orders.add(new Order(customers.get(1),restaurants.get(1)));
 
-        Customer driver = new Customer("driver",new GeoPoint(0.00,0.00));
+        Driver driver = new Driver("driver",new GeoPoint(0.00,0.00));
 
         ArrayList<User> ans;
         ans = BestRoute.getBestRoute(orders,driver);
