@@ -5,9 +5,9 @@ distance in km
 
 Process / algo
 
-Basically first created the classes for the restuarants and the customer
+Basically first created the classes for the restuarants and the customer and Geopoint
 created a function to calculate the distance and time taken to reach from location a to location b
-next made list of all the restaurnt and customers called nodes
+next made list of all the restaurant and customers called nodes
 made a ordermap which maps the customer to the restuarant
 next intialized a visted set, a temporary route array , and a ans array
 the visited set -> keeps track of the visited nodes (list of restuarants and customers)
@@ -15,7 +15,7 @@ route arraylist -> keeps track of the current path (it is a list nodes we visite
 
 
 getBestRoute function :
-created a function which gives us the best route and also the minimum time required to go through the path -> getBestRoute
+created a function which gives us the best route and also the minimum time required to go through the path -> getBestRoute,
 this method calls the recur method
 
 recur function:
@@ -30,7 +30,7 @@ with this time we check for minimum value , if we encounter a value lesser than 
 we have been storing in the Route array
 
 Steps
-1. create objects for restuarant , customer, order
+1. create objects for restuarant , customer, order , geopoint
 2.create a node array which has all the restuarants from where a order has been placed and also the customers who have placed the orders
 3. create a orderMap which will map the customer to the restuarant
 4.we create a visited set to have all the visited nodes
